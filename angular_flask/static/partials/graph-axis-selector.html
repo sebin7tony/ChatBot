@@ -1,0 +1,26 @@
+<div class="row">
+	<div class="col-12-lg col-12-md talk-bubble tri-right" style="background-color:lightblue; padding:5px; padding-left:8px; margin: 15px;"
+				ng-class="appliedClass(message.sender)">
+		<div class="talktext" style="padding: 6px;">
+			<p style="margin: 10px 0 10px;">Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the {{responseOBJ.context.frame.data}}. </p>
+		</div>
+		<form>
+			<div class="row form-group" style="padding: 6px;padding-left:15px;">
+				<p><b> Please choose X axis field</b></p>
+				<p data-ng-repeat="choice in message.dataitem['x']">
+	                <input type="radio" name="response" ng-value="true" ng-click="setChoiceForAxis('x', choice)"/>
+	                    {{choice}}
+	            </p>
+			</div>
+		</form>
+		<form>
+			<div class="row form-group" style="padding: 6px;padding-left:15px;">
+				<p><b> Please choose Y axis field</b></p>
+				<p data-ng-repeat="choice in message.dataitem['y']">
+	                <input type="radio" name="response" ng-value="true" ng-click="setChoiceForAxis('y', choice)"/>
+	                    {{choice}}
+	            </p>
+			</div>
+		</form>
+	</div>
+</div>

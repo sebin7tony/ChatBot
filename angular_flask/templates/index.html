@@ -1,0 +1,66 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jarvis</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/static/lib/bootstrap-theme-white-plum/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/static/lib/animate.css/animate.css" />
+    <link rel="stylesheet" href="/static/styles/main.css">
+    <link rel="stylesheet" href="/static/styles/bubbles.css">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js"></script>
+  </head>
+  <body ng-app="chatWebApp" style="background-color:#D7DADB;">
+
+    <div class="container" ng-controller="ChatCtrl">
+        
+        <div class="messagebox panel panel-default">
+            <div class="panel-heading" style="background-color: #0E66C9;">
+                <h1 style="color:white;">Test </h1>
+            </div>
+            <div scroll-glue class="panel-body" style="height: 600px; max-height: 80%; overflow-y: scroll;">
+                <section ng-repeat="message in messages track by $index" bind-compiled-html="message.template">
+                </section>
+            </div>
+            <div class="panel-footer">
+                <form class="form-horizontal" ng-submit="sendMessage()">
+                    <label for="message">Message:</label>
+                    <input id="message" class="form-control" ng-model="newMessage">
+                </form>
+            </div>
+        </div>
+        <div class="footer" style="text-align: center">
+            <p>made with ♥</p>
+        </div>
+    </div>
+
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/static/lib/jquery/jquery.js"></script>
+    <script src="/static/lib/angular/angular-1.4.7.min.js"></script>
+    <script src="/static/lib/angular/angular-route-1.4.7.min.js"></script>
+    <script src="/static/lib/angular-animate/angular-animate-1.4.7.min.js"></script>
+    <script src="/static/lib/angular-socket-io/socket.js"></script>
+    <script src="/static/lib/moment/min/moment.min.js"></script>
+    <script src="/static/lib/angular-moment/angular-moment.min.js"></script>
+    <script src="/static/lib/angularjs-scroll-glue/src/scrollglue.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="/static/scripts/app.js"></script>
+    <script src="/static/scripts/controllers/chatController.js"></script>
+    <script src="/static/scripts/services/chatServices.js"></script>
+    <script src="/static/scripts/directives/chatDirectives.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

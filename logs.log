@@ -1,0 +1,505 @@
+2017-01-02 15:26:35,128 - controller - DEBUG - text :can you represent sales data as a pie chart
+2017-01-02 15:26:35,128 - controller - DEBUG - response object
+2017-01-02 15:26:35,131 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 15:26:35,132 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 15:26:35,132 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 15:26:35,132 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 15:41:13,293 - controller - DEBUG - text :can you represent sales data as a pie chart
+2017-01-02 15:41:13,295 - controller - DEBUG - response object
+2017-01-02 15:41:13,299 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 15:41:13,299 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 15:41:13,299 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 15:41:13,299 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 15:41:13,299 - controller.show_chart_processor - INFO - inside
+2017-01-02 15:42:44,667 - controller - DEBUG - text :can you represent sales data as a pie chart
+2017-01-02 15:42:44,667 - controller - DEBUG - response object
+2017-01-02 15:42:44,667 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 15:42:44,667 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 15:42:44,667 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 15:42:44,667 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 15:42:44,668 - controller.show_chart_processor - INFO - inside
+2017-01-02 15:42:44,668 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'pie'}
+2017-01-02 15:44:15,970 - controller - DEBUG - text :can you represent sales data as a pie chart
+2017-01-02 15:44:15,970 - controller - DEBUG - response object
+2017-01-02 15:44:15,974 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 15:44:15,976 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 15:44:15,976 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 15:44:15,976 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 15:44:15,976 - controller.show_chart_processor - INFO - inside
+2017-01-02 15:44:15,976 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'pie'}
+2017-01-02 15:44:15,976 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'pie'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 15:46:38,552 - controller - DEBUG - text :can you represent sales data as a pie chart
+2017-01-02 15:46:38,552 - controller - DEBUG - response object
+2017-01-02 15:46:38,558 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 15:46:38,558 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 15:46:38,559 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 15:46:38,559 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 15:46:38,559 - controller.show_chart_processor - INFO - inside
+2017-01-02 15:46:38,559 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'pie'}
+2017-01-02 15:46:38,559 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'pie'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 15:46:38,559 - controller.data_explore - DEBUG - show_chart_response {'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'pie'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 15:48:27,678 - controller - DEBUG - text :can you represent sales data as a pie chart
+2017-01-02 15:48:27,680 - controller - DEBUG - response object
+2017-01-02 15:48:27,680 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 15:48:27,680 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 15:48:27,680 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 15:48:27,680 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 15:48:27,680 - controller.show_chart_processor - INFO - inside
+2017-01-02 15:48:27,680 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'pie'}
+2017-01-02 15:48:27,680 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'pie'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 15:48:27,680 - controller.data_explore - DEBUG - show_chart_response {'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'pie'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 15:50:18,319 - controller - DEBUG - text :can you represent sales data as a pie chart
+2017-01-02 15:50:18,321 - controller - DEBUG - response object
+2017-01-02 15:50:18,323 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 15:50:18,323 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 15:50:18,323 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 15:50:18,325 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 15:50:18,325 - controller.show_chart_processor - INFO - inside
+2017-01-02 15:50:18,325 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'pie'}
+2017-01-02 15:50:18,325 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'pie'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 15:50:18,325 - controller.data_explore - DEBUG - show_chart_response {'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'pie'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 15:50:18,325 - controller - DEBUG - None
+2017-01-02 15:51:46,980 - controller - DEBUG - text :can you represent sales data as a pie chart
+2017-01-02 15:51:46,980 - controller - DEBUG - response object
+2017-01-02 15:51:46,984 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 15:51:46,984 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 15:51:46,984 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 15:51:46,986 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 15:51:46,986 - controller.show_chart_processor - INFO - inside
+2017-01-02 15:51:46,986 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'pie'}
+2017-01-02 15:51:46,986 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'pie'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 15:51:46,986 - controller - DEBUG - None
+2017-01-02 15:53:59,864 - controller - DEBUG - text :fetch me chart of latest sales data
+2017-01-02 15:53:59,864 - controller - DEBUG - response object
+2017-01-02 15:53:59,867 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 15:53:59,867 - controller.data_explore - DEBUG - Intent verb fetch
+2017-01-02 15:53:59,867 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 15:53:59,868 - controller.data_explore - DEBUG - Intent data root none
+2017-01-02 15:53:59,868 - controller.show_chart_processor - INFO - inside
+2017-01-02 15:53:59,868 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': None}
+2017-01-02 15:53:59,868 - controller.show_chart_processor - ERROR - chart_type is not detected properly, cant process anymore
+2017-01-02 15:53:59,868 - controller - DEBUG - None
+2017-01-02 15:54:17,872 - controller - DEBUG - text :fetch me a bar chart of latest sales data
+2017-01-02 15:54:17,872 - controller - DEBUG - response object
+2017-01-02 15:54:17,874 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 15:54:17,874 - controller.data_explore - DEBUG - Intent verb fetch
+2017-01-02 15:54:17,874 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 15:54:17,874 - controller.data_explore - DEBUG - Intent data root none
+2017-01-02 15:54:17,874 - controller.show_chart_processor - INFO - inside
+2017-01-02 15:54:17,874 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-02 15:54:17,875 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 15:54:17,875 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A24A34A8>
+2017-01-02 15:57:49,601 - controller - DEBUG - text :fetch me a bar chart of latest sales data
+2017-01-02 15:57:49,601 - controller - DEBUG - response object
+2017-01-02 15:57:49,605 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 15:57:49,605 - controller.data_explore - DEBUG - Intent verb fetch
+2017-01-02 15:57:49,605 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 15:57:49,605 - controller.data_explore - DEBUG - Intent data root none
+2017-01-02 15:57:49,605 - controller.show_chart_processor - INFO - inside
+2017-01-02 15:57:49,607 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-02 15:57:49,607 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 15:57:49,607 - controller.data_explore - DEBUG - leaving  text_parser {'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 15:57:49,608 - controller - DEBUG - {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 15:58:39,809 - controller - DEBUG - text :can you represent the sales data as a bar chart
+2017-01-02 15:58:39,811 - controller - DEBUG - response object
+2017-01-02 15:58:39,815 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 15:58:39,815 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 15:58:39,816 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 15:58:39,816 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 15:58:39,816 - controller.show_chart_processor - INFO - inside
+2017-01-02 15:58:39,816 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-02 15:58:39,818 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 15:58:39,818 - controller.data_explore - DEBUG - leaving  text_parser {'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:07:55,778 - controller - DEBUG - text :can you represent the sales data as a bar chart
+2017-01-02 16:07:55,778 - controller - DEBUG - response object
+2017-01-02 16:07:55,782 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 16:07:55,782 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 16:07:55,782 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 16:07:55,782 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 16:07:55,782 - controller.show_chart_processor - INFO - inside
+2017-01-02 16:07:55,782 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-02 16:07:55,782 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:07:55,782 - controller.data_explore - DEBUG - leaving  text_parser {'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:08:54,278 - controller - DEBUG - text :can you represent the sales data as a bar chart
+2017-01-02 16:08:54,279 - controller - DEBUG - response object
+2017-01-02 16:08:54,285 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 16:08:54,285 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 16:08:54,285 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 16:08:54,286 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 16:08:54,286 - controller.show_chart_processor - INFO - inside
+2017-01-02 16:08:54,286 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-02 16:08:54,286 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:08:54,286 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:09:38,204 - controller - DEBUG - text :can you represent the sales data as a bar chart
+2017-01-02 16:09:38,204 - controller - DEBUG - response object
+2017-01-02 16:09:38,207 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 16:09:38,207 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 16:09:38,207 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 16:09:38,207 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 16:09:38,209 - controller.show_chart_processor - INFO - inside
+2017-01-02 16:09:38,209 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-02 16:09:38,209 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:09:38,209 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:09:38,209 - controller - DEBUG - None
+2017-01-02 16:11:18,782 - controller - DEBUG - text :can you represent the sales data as a bar chart
+2017-01-02 16:11:18,782 - controller - DEBUG - response object
+2017-01-02 16:11:18,785 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 16:11:18,786 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 16:11:18,786 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 16:11:18,786 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 16:11:18,786 - controller.show_chart_processor - INFO - inside
+2017-01-02 16:11:18,786 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-02 16:11:18,786 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:11:18,786 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:11:18,786 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A4499588>
+2017-01-02 16:11:18,786 - controller - DEBUG - None
+2017-01-02 16:13:58,920 - controller - DEBUG - text :can you represent the sales data as a bar chart
+2017-01-02 16:13:58,921 - controller - DEBUG - response object
+2017-01-02 16:15:04,467 - controller - DEBUG - text :can you represent the sales data as a bar chart
+2017-01-02 16:15:04,469 - controller - DEBUG - response object
+2017-01-02 16:16:36,674 - controller - DEBUG - text :can you represent the sales data as a bar chart
+2017-01-02 16:16:36,676 - controller - DEBUG - response object
+2017-01-02 16:16:36,680 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 16:16:36,680 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 16:16:36,680 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 16:16:36,681 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 16:16:36,681 - controller.show_chart_processor - INFO - inside
+2017-01-02 16:16:36,681 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-02 16:16:36,681 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:16:36,683 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:16:36,683 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1506588>
+2017-01-02 16:16:36,683 - controller.data_explore - DEBUG - test_parser None
+2017-01-02 16:16:36,683 - controller - DEBUG - None
+2017-01-02 16:19:03,927 - controller - DEBUG - text :can you represent the sales data as a bar chart
+2017-01-02 16:19:03,927 - controller - DEBUG - response object
+2017-01-02 16:19:03,933 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 16:19:03,933 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 16:19:03,933 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 16:19:03,934 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 16:19:03,934 - controller.show_chart_processor - INFO - inside
+2017-01-02 16:19:03,934 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-02 16:19:03,934 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:19:03,934 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:19:03,934 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A44665C0>
+2017-01-02 16:19:48,891 - controller - DEBUG - text :can you represent the sales data as a bar chart
+2017-01-02 16:19:48,891 - controller - DEBUG - response object
+2017-01-02 16:19:48,897 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 16:19:48,897 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 16:19:48,898 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 16:19:48,898 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 16:19:48,898 - controller.show_chart_processor - INFO - inside
+2017-01-02 16:19:48,898 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-02 16:19:48,898 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:19:48,898 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:19:48,898 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A451A5C0>
+2017-01-02 16:19:48,898 - controller.data_explore - INFO - Leaving text_parser
+2017-01-02 16:19:48,898 - controller.data_explore - DEBUG - test_parser None
+2017-01-02 16:19:48,898 - controller - DEBUG - None
+2017-01-02 16:22:33,614 - controller - DEBUG - text :can you represent the sales data as a bar chart
+2017-01-02 16:22:33,614 - controller - DEBUG - response object
+2017-01-02 16:22:33,617 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 16:22:33,617 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 16:22:33,617 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 16:22:33,617 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 16:22:33,618 - controller.show_chart_processor - INFO - inside
+2017-01-02 16:22:33,618 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-02 16:22:33,618 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:22:33,618 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:22:33,618 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A14E95C0>
+2017-01-02 16:22:33,618 - controller.data_explore - INFO - Leaving text_parser
+2017-01-02 16:22:33,618 - controller.data_explore - DEBUG - test_parser None
+2017-01-02 16:22:33,618 - controller - DEBUG - None
+2017-01-02 16:25:52,184 - controller - DEBUG - text :can you represent the sales data as a bar chart
+2017-01-02 16:25:52,184 - controller - DEBUG - response object
+2017-01-02 16:25:52,186 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 16:25:52,186 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 16:25:52,187 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 16:25:52,187 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 16:25:52,187 - controller.show_chart_processor - INFO - inside
+2017-01-02 16:25:52,187 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-02 16:25:52,187 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:25:52,187 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:25:52,187 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05195C0>
+2017-01-02 16:25:52,187 - controller.data_explore - DEBUG - test_parser <angular_flask.models.Response_frame object at 0x00000000A05195C0>
+2017-01-02 16:25:52,187 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05195C0>
+2017-01-02 16:27:10,092 - controller - DEBUG - text :can you show me a bar chart ?
+2017-01-02 16:27:10,092 - controller - DEBUG - response object
+2017-01-02 16:27:10,095 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 16:27:10,095 - controller.data_explore - DEBUG - Intent verb show
+2017-01-02 16:27:10,095 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 16:27:10,095 - controller.data_explore - DEBUG - Intent data root none
+2017-01-02 16:27:10,095 - controller.show_chart_processor - ERROR - Number of 'pobj' in the input text is not compatible
+2017-01-02 16:27:10,095 - controller.show_chart_processor - ERROR - Expecting only one 'pobj' in the input text
+2017-01-02 16:28:35,865 - controller - DEBUG - text :can you show me a bar chart ?
+2017-01-02 16:28:35,867 - controller - DEBUG - response object
+2017-01-02 16:28:35,868 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 16:28:35,869 - controller.data_explore - DEBUG - Intent verb show
+2017-01-02 16:28:35,869 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 16:28:35,869 - controller.data_explore - DEBUG - Intent data root none
+2017-01-02 16:28:35,869 - controller.show_chart_processor - ERROR - Number of 'pobj' in the input text is not compatible
+2017-01-02 16:28:35,869 - controller.show_chart_processor - ERROR - Expecting only one 'pobj' in the input text
+2017-01-02 16:28:46,154 - controller - DEBUG - text :can you represent sales data as a pie chart
+2017-01-02 16:28:46,154 - controller - DEBUG - response object
+2017-01-02 16:28:46,158 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-02 16:28:46,160 - controller.data_explore - DEBUG - Intent verb display
+2017-01-02 16:28:46,160 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-02 16:28:46,160 - controller.data_explore - DEBUG - Intent data root data
+2017-01-02 16:28:46,161 - controller.show_chart_processor - INFO - inside
+2017-01-02 16:28:46,161 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'pie'}
+2017-01-02 16:28:46,161 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'pie'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:28:46,161 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'pie'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-02 16:28:46,161 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A3511668>
+2017-01-02 16:28:46,161 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A3511668>
+2017-01-04 12:29:13,658 - controller - DEBUG - text :undefined
+2017-01-04 12:29:13,674 - controller - DEBUG - response object
+2017-01-04 12:29:13,674 - controller.data_explore - INFO - Nothing got triggered !!
+2017-01-04 12:29:13,674 - controller - DEBUG - None
+2017-01-04 12:31:15,108 - controller - DEBUG - text :Can you get me a bar chart of sales data ?
+2017-01-04 12:31:15,108 - controller - DEBUG - response object
+2017-01-04 12:31:15,108 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 12:31:15,108 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 12:31:15,108 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 12:31:15,108 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 12:31:15,108 - controller.show_chart_processor - INFO - inside
+2017-01-04 12:31:15,108 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 12:31:15,108 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 12:31:15,108 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 12:31:15,108 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A0708CC0>
+2017-01-04 12:31:15,108 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A0708CC0>
+2017-01-04 12:40:10,431 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 12:40:10,433 - controller - DEBUG - response object
+2017-01-04 12:40:10,434 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 12:40:10,434 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 12:40:10,434 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 12:40:10,436 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 12:40:10,436 - controller.show_chart_processor - INFO - inside
+2017-01-04 12:40:10,436 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 12:40:10,437 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 12:40:10,437 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 12:40:10,437 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A069BB00>
+2017-01-04 12:40:10,437 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A069BB00>
+2017-01-04 12:52:51,858 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 12:52:51,858 - controller - DEBUG - response object
+2017-01-04 12:52:51,858 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 12:52:51,858 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 12:52:51,858 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 12:52:51,858 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 12:52:51,858 - controller.show_chart_processor - INFO - inside
+2017-01-04 12:52:51,858 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 12:52:51,858 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 12:52:51,858 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 12:52:51,858 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06F6DD8>
+2017-01-04 12:52:51,858 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06F6DD8>
+2017-01-04 14:28:36,994 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 14:28:36,994 - controller - DEBUG - response object
+2017-01-04 14:28:36,994 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:28:36,994 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 14:28:36,994 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:28:36,994 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:28:36,994 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:28:36,994 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 14:28:36,994 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:28:36,994 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:28:36,994 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05D4668>
+2017-01-04 14:28:36,994 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05D4668>
+2017-01-04 14:30:19,309 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 14:30:19,309 - controller - DEBUG - response object
+2017-01-04 14:30:19,312 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:30:19,312 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 14:30:19,312 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:30:19,312 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:30:19,312 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:30:19,312 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 14:30:19,312 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:30:19,313 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:30:19,313 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05D4B00>
+2017-01-04 14:30:19,313 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05D4B00>
+2017-01-04 14:30:38,075 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 14:30:38,075 - controller - DEBUG - response object
+2017-01-04 14:30:38,075 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:30:38,075 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 14:30:38,075 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:30:38,075 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:30:38,075 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:30:38,075 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 14:30:38,075 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:30:38,075 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:30:38,075 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06D9E48>
+2017-01-04 14:30:38,075 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06D9E48>
+2017-01-04 14:31:35,578 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 14:31:35,578 - controller - DEBUG - response object
+2017-01-04 14:31:35,581 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:31:35,581 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 14:31:35,582 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:31:35,582 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:31:35,582 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:31:35,582 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 14:31:35,582 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:31:35,582 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:31:35,582 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06EC748>
+2017-01-04 14:31:35,582 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06EC748>
+2017-01-04 14:32:14,933 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 14:32:14,933 - controller - DEBUG - response object
+2017-01-04 14:32:14,934 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:32:14,934 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 14:32:14,934 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:32:14,934 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:32:14,934 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:32:14,934 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 14:32:14,934 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:32:14,934 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:32:14,934 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05D40B8>
+2017-01-04 14:32:14,934 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05D40B8>
+2017-01-04 14:33:58,013 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 14:33:58,013 - controller - DEBUG - response object
+2017-01-04 14:33:58,013 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:33:58,013 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 14:33:58,013 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:33:58,013 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:33:58,013 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:33:58,013 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 14:33:58,013 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:33:58,013 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:33:58,013 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06D9FD0>
+2017-01-04 14:33:58,013 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06D9FD0>
+2017-01-04 14:34:42,855 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 14:34:42,855 - controller - DEBUG - response object
+2017-01-04 14:34:42,855 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:34:42,855 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 14:34:42,855 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:34:42,855 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:34:42,855 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:34:42,855 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 14:34:42,855 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:34:42,855 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:34:42,855 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A0708D68>
+2017-01-04 14:34:42,855 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A0708D68>
+2017-01-04 14:38:09,342 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 14:38:09,342 - controller - DEBUG - response object
+2017-01-04 14:38:09,342 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:38:09,342 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 14:38:09,342 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:38:09,342 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:38:09,342 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:38:09,342 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 14:38:09,342 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:38:09,342 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:38:09,342 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06F4748>
+2017-01-04 14:38:09,342 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06F4748>
+2017-01-04 14:40:54,832 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 14:40:54,832 - controller - DEBUG - response object
+2017-01-04 14:40:54,832 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:40:54,832 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 14:40:54,832 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:40:54,832 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:40:54,832 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:40:54,832 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 14:40:54,832 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:40:54,832 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:40:54,832 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A07D4358>
+2017-01-04 14:40:54,832 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A07D4358>
+2017-01-04 14:42:27,299 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 14:42:27,299 - controller - DEBUG - response object
+2017-01-04 14:42:27,302 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:42:27,302 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 14:42:27,302 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:42:27,302 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:42:27,302 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:42:27,302 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 14:42:27,302 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:42:27,302 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:42:27,303 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A07C5D30>
+2017-01-04 14:42:27,303 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A07C5D30>
+2017-01-04 14:43:58,670 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 14:43:58,671 - controller - DEBUG - response object
+2017-01-04 14:43:58,673 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:43:58,673 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 14:43:58,674 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:43:58,674 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:43:58,674 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:43:58,674 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 14:43:58,674 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:43:58,674 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:43:58,674 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A07BE048>
+2017-01-04 14:43:58,674 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A07BE048>
+2017-01-04 14:45:26,526 - controller - DEBUG - text :Can you get me a bar chart of phone bills
+2017-01-04 14:45:26,526 - controller - DEBUG - response object
+2017-01-04 14:45:26,529 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:45:26,529 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 14:45:26,529 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:45:26,529 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:45:26,529 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:45:26,529 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'bar'}
+2017-01-04 14:45:26,529 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['Bill amount'], 'x': ['paid', 'Month']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:45:26,530 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['bill amount'], 'x': ['paid', 'month']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'phone bills', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:45:26,530 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06F6240>
+2017-01-04 14:45:26,530 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06F6240>
+2017-01-04 14:49:46,499 - controller - DEBUG - text :fetch me chart of latest sales data
+2017-01-04 14:49:46,500 - controller - DEBUG - response object
+2017-01-04 14:49:46,502 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:49:46,502 - controller.data_explore - DEBUG - Intent verb fetch
+2017-01-04 14:49:46,502 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:49:46,502 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:49:46,503 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:49:46,503 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': None}
+2017-01-04 14:49:46,503 - controller.show_chart_processor - ERROR - chart_type is not detected properly, cant process anymore
+2017-01-04 14:50:13,308 - controller - DEBUG - text :fetch me the bar chart of latest sales data
+2017-01-04 14:50:13,309 - controller - DEBUG - response object
+2017-01-04 14:50:13,311 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:50:13,311 - controller.data_explore - DEBUG - Intent verb fetch
+2017-01-04 14:50:13,312 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:50:13,312 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:50:13,312 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:50:13,312 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 14:50:13,312 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:50:13,312 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:50:13,312 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06F47B8>
+2017-01-04 14:50:13,312 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06F47B8>
+2017-01-04 14:54:30,226 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 14:54:30,226 - controller - DEBUG - response object
+2017-01-04 14:54:30,226 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 14:54:30,226 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 14:54:30,226 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 14:54:30,226 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 14:54:30,226 - controller.show_chart_processor - INFO - inside
+2017-01-04 14:54:30,226 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 14:54:30,226 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:54:30,226 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 14:54:30,226 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06D9EB8>
+2017-01-04 14:54:30,226 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06D9EB8>
+2017-01-04 15:05:09,604 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 15:05:09,604 - controller - DEBUG - response object
+2017-01-04 15:05:09,604 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 15:05:09,604 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 15:05:09,604 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 15:05:09,604 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 15:05:09,604 - controller.show_chart_processor - INFO - inside
+2017-01-04 15:05:09,604 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 15:05:09,604 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 15:05:09,604 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 15:05:09,604 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A069B518>
+2017-01-04 15:05:09,604 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A069B518>
+2017-01-04 15:06:34,453 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-04 15:06:34,453 - controller - DEBUG - response object
+2017-01-04 15:06:34,453 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 15:06:34,453 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 15:06:34,453 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 15:06:34,467 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 15:06:34,467 - controller.show_chart_processor - INFO - inside
+2017-01-04 15:06:34,467 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 15:06:34,467 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 15:06:34,467 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 15:06:34,467 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A070F2B0>
+2017-01-04 15:06:34,467 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A070F2B0>
+2017-01-04 15:35:42,964 - controller - DEBUG - text :Can you get me a bar chart of sales data ?
+2017-01-04 15:35:42,964 - controller - DEBUG - response object
+2017-01-04 15:35:42,967 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-04 15:35:42,967 - controller.data_explore - DEBUG - Intent verb get
+2017-01-04 15:35:42,967 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-04 15:35:42,967 - controller.data_explore - DEBUG - Intent data root none
+2017-01-04 15:35:42,967 - controller.show_chart_processor - INFO - inside
+2017-01-04 15:35:42,967 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-04 15:35:42,967 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 15:35:42,967 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-04 15:35:42,969 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A44FEE10>
+2017-01-04 15:35:42,969 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A44FEE10>
