@@ -1,8 +1,7 @@
-<div class="row">
-	<div class="col-12-lg col-12-md talk-bubble tri-right" style="background-color:lightblue; padding:5px; padding-left:8px; margin: 15px;"
-				ng-class="appliedClass(message.sender)">
+<div class="row" ng-show="message.dataitem.text">
+	<div class="col-12-lg col-12-md talk-bubble tri-right" style="background-color:lightblue; padding:5px; padding-left:8px; margin: 15px;" ng-class="appliedClass(message.sender)">
 		<div class="talktext" style="padding: 6px;">
-			<p style="margin: 10px 0 10px;">{{message.dataitem}}</p>
+			<p style="margin: 10px 0 10px;">{{message.dataitem.text}}</p>
 		</div>
 	</div>
 </div>

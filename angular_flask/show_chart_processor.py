@@ -113,7 +113,11 @@ def response_generator_showchart(showChart_frame):
         else:
             logger.error("Detected data is not present in the CSVFILE_FIELD_MAPPING")
             return
-        showChart_response.data = temp
+
+        newTmp = {}
+        newTmp['text'] = "Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the " +str(showChart_frame.data) +"."
+        newTmp['template_data'] = temp
+        showChart_response.data = newTmp
         showChart_response.isCompleted = False
         
         tmp_context = {}
@@ -190,3 +194,66 @@ def fillFrame_show_chart(showChart_frame,obj_root,data_root,x_axis,y_axis):
         return
 
 
+# This function will accept the x and y axis fields and process
+# the chart as requested in the text. 
+# @params : string,string,dict
+# @returns : Response_frame
+def processChartAxis(x_axis,y_axis,context):
+
+    logger.debug("Inside the processChartAxis")
+
+    x_data = []
+    y_data = []
+
+    if x_axis is None or y_axis is None or context is None:
+        logger.error("Parameters are not passed properly. None type encountered")
+        return
+
+    # Parse data from the csv file
+    if 'frame' in context:
+        file_name = context['frame']['data']
+        file_name = file_name+'.csv'
+        file_name = os.path.join(FOLDER_LOCATION, file_name)
+
+        with open(file_name, 'rb') as csvfile:
+            logger.debug("Reading the file successfully ")
+            csvreader = csv.reader(csvfile)
+            csv_titles = next(csvreader)
+            csv_titles = [title.lower() for title in csv_titles]
+            x_index = csv_titles.index(x_axis.lower())
+            y_index = csv_titles.index(y_axis.lower())
+
+            # Creating the data for the graph
+            for row in csvreader:
+                x_data.append(row[x_index])
+                y_data.append(row[y_index])
+
+    logger.debug("x_data "+str(x_data))
+    logger.debug("y_data "+str(y_data))
+
+    if not x_data or not y_data :
+        logger.error("Something has gone wrong. CSV file did not got parsed properly")
+        return
+    else:
+        chart_response = models.Response_frame()
+
+        # fixing the template
+        if context['frame']['chart_type'] == 'bar':
+            chart_response.template = "bar-chart.html"
+        elif context['frame']['chart_type'] == 'pie':
+            chart_response.template = "pie-chart.html"
+
+        # fixing the chart data
+        tmp = {}
+        tmp['template_data'] = {}
+        tmp['template_data']['x'] = x_data
+        tmp['template_data']['y'] = y_data
+        chart_response.data = tmp
+
+        chart_response.isCompleted = True
+
+        # set the context
+        context['frame']['x_axis'] = x_axis
+        context['frame']['y_axis'] = y_axis
+        chart_response.context = context
+        return chart_response

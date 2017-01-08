@@ -1,10 +1,11 @@
 import os
 import conversation_parser as conparser
+import show_chart_processor as chartproc
 
 from flask import Flask, request, Response, jsonify
 from flask import render_template, url_for, redirect, send_from_directory
 from flask import send_file, make_response, abort
-import logging
+import logging,json
 
 logger = logging.getLogger("controller")
 logger.setLevel(logging.DEBUG)
@@ -31,19 +32,20 @@ def process_text():
 
 
 @app.route('/jarvis/api/v1.0/chart_axis', methods=['POST'])
-def process_text():
-    if not request.json or not 'x_axis' in request.json and 'y_axis' in request.json
-        and 'context' in request.json:
+def process_chart_axis():
+    if not request.json or not 'x_axis' in request.json and 'y_axis' in request.json and 'context' in request.json:
         abort(400)
 
     # Pass this data in this webservice
     x_axis = request.json['x_axis']
     y_axis = request.json['y_axis']
     context = request.json['context']
+    #context = json.loads(request.json['context'])
     logger.debug("x_axis :"+str(x_axis))
     logger.debug("y_axis :"+str(y_axis))
+    logger.debug("context :"+str(context))
     logger.debug("response object")
-    res = conparser.processChartAxis(x_axis,y_axis,context)
+    res = chartproc.processChartAxis(x_axis,y_axis,context)
     logger.debug(res)
     return jsonify(res.__dict__)
 
