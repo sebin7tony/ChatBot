@@ -240,6 +240,10 @@ def processChartAxis(x_axis,y_axis,context):
         # fixing the template
         if context['frame']['chart_type'] == 'bar':
             chart_response.template = "bar-chart.html"
+        elif context['frame']['chart_type'] == 'line':
+            chart_response.template = "bar-chart.html"
+        elif context['frame']['chart_type'] == 'spline':
+            chart_response.template = "bar-chart.html"
         elif context['frame']['chart_type'] == 'pie':
             chart_response.template = "pie-chart.html"
 

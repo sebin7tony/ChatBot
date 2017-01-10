@@ -105,7 +105,8 @@ angular.module('chatWebApp')
                     function (data){
 
                         if(data !== undefined){
-                            //console.log("getChartData :"+JSON.stringify(data.data,null,4));
+                            
+                            console.log("getChartData :"+JSON.stringify(data.data,null,4));
                             $scope.responseOBJ = data.data;
 
                             $scope.currentMessage = {
@@ -115,10 +116,12 @@ angular.module('chatWebApp')
                             };
 
                             $scope.messages.push($scope.currentMessage);
-                            console.log(JSON.stringify($scope.messages,null,4));
-                            console.log($scope.messages.length,null,4);
+                            //console.log(JSON.stringify($scope.messages,null,4));
+                            //console.log($scope.messages.length);
+                            var chartType = $scope.responseOBJ.context.frame.chart_type;
+
                             $timeout(function(){
-                                $scope.showChart($scope.responseOBJ.data.template_data,$scope.messages.length-1);
+                                $scope.showChart($scope.responseOBJ.data.template_data,$scope.messages.length-1,chartType);
                             }, 500);
                             //$scope.showChart($scope.responseOBJ.data.template_data);
           
@@ -147,7 +150,7 @@ angular.module('chatWebApp')
         }
 
 
-        $scope.showChart = function(chartdata,index){
+        $scope.showChart = function(chartdata,index,chartType){
 
             console.log("Inside showChart "+JSON.stringify(chartdata,null,4));
             var showdataLabel= [];
@@ -163,11 +166,7 @@ angular.module('chatWebApp')
                 showdata.push(parseFloat(chartdata['y'][data]).toFixed(2));
             }
 
-            //console.log("showdataLabel "+JSON.stringify(showdataLabel,null,4));
-            //console.log("showdata "+JSON.stringify(showdata,null,4));
-
-            /*showdata =['data1', 30, 200, 100, 400, 150, 250];
-            showdataLabel = ["jab","s","ss","ds","sads","wer"]*/
+            
 
             $scope.emobarchart = c3.generate({
                 bindto: '#detailemo-bar-'+index,
@@ -178,7 +177,7 @@ angular.module('chatWebApp')
                     columns: [
                         showdata
                     ],
-                    type: 'bar'
+                    type: chartType
                 },
                 axis: {
                     x:{

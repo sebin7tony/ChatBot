@@ -1,6 +1,7 @@
 from angular_flask import app
 import frames,models
 import show_chart_processor as chrt_proc
+import jira_processor as jira_proc
 
 import logging
 import json
@@ -14,6 +15,7 @@ logger = logging.getLogger("controller.data_explore")
 training_verb_list = ['get.v.4','display.v.1','fetch.v.1','draw.v.3','show.v.5','see.v.1','plot.v.2','represent.v.9']
 show_chart_verb_list = [verb for verb_input in training_verb_list for verb in wn.synset(verb_input).lemma_names()]
 show_chart_noun_list = ['chart','graph']
+jira_noun_list = ['bugs','issues']
 dep_list = ['dobj','prep','xcomp']
 verbs_special_cases = ['represent','depict','exhibit']
 
@@ -83,13 +85,26 @@ def text_parser(text):
 
     elif str(intent_verb).lower() in show_chart_verb_list and str(intent_obj_root).lower() in show_chart_noun_list:
         # Trigger show_chart intent
-        logger.debug("Intent identified !!")
+        logger.debug("show_chart Intent identified !!")
         logger.debug("Intent verb "+str(intent_verb).lower())
         logger.debug("Intent obj root "+str(intent_obj_root).lower())
         logger.debug("Intent data root "+str(intent_data_root).lower())
 
         showChart_frame = frames.Show_chart()
         show_chart_response = chrt_proc.fillFrame_show_chart(showChart_frame,intent_obj_root,intent_data_root,None,None)
+        # Response here always will be asking about the axis info
+        logger.debug("leaving  text_parser t"+str(show_chart_response.__dict__).lower())
+        logger.debug(show_chart_response)
+        return show_chart_response
+
+    elif str(intent_verb).lower() in show_chart_verb_list and str(intent_obj_root).lower() in jira_noun_list:
+        # Trigger get_jira intent
+        logger.debug("get_jira Intent identified !!")
+        logger.debug("Intent verb "+str(intent_verb).lower())
+        logger.debug("Intent obj root "+str(intent_obj_root).lower())
+
+        getJira_frame = frames.Get_jira(intent_obj_root)
+        show_jira_response = jira_proc.fillFrame_jira(getJira_frame,intent_obj_root)
         # Response here always will be asking about the axis info
         logger.debug("leaving  text_parser t"+str(show_chart_response.__dict__).lower())
         logger.debug(show_chart_response)

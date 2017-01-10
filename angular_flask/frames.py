@@ -26,3 +26,26 @@ class Show_chart(object):
 			return False
 		
 		return True
+
+class Get_jira(object):
+
+	def __init__(self):
+		self.project = "PROJECT"
+		self.issue_status = None
+		self.user = "USER"
+
+	def display_frame(self):
+		print "printing Get_jira frame"
+		print "project : "+str(self.project)
+		print "issue_status : "+str(self.issue_status)
+		print "user : "+str(self.user)
+
+	def isAllFilled(self):
+		if self.project is None:
+			return False
+		if self.issue_status is None:
+			return False
+		if self.user is None:
+			return False
+		
+		return True

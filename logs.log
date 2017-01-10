@@ -142,3 +142,458 @@
 2017-01-08 20:37:42,887 - controller.show_chart_processor - DEBUG - x_data ['SUPA101', 'DETA200', 'DETA800', 'SUPA104', 'PURA200', 'PURA100', 'DETA100', 'PURA100', 'SUPA103', 'SUPA103', 'DETA200', 'SUPA104', 'PURA100', 'DETA800', 'PURA500', 'SUPA101', 'SUPA105', 'PURA100', 'SUPA103', 'SUPA102', 'DETA100', 'SUPA105', 'PURA250', 'SUPA102', 'DETA800', 'PURA250', 'SUPA104', 'SUPA105', 'DETA800', 'DETA800', 'SUPA105', 'SUPA101', 'DETA800', 'SUPA101', 'SUPA105', 'DETA800', 'PURA250', 'PURA200', 'SUPA104', 'SUPA103', 'PURA500', 'SUPA105', 'PURA200', 'DETA800', 'DETA200', 'DETA100', 'PURA100', 'PURA200', 'SUPA104', 'SUPA105', 'PURA200', 'SUPA101', 'SUPA104', 'PURA250', 'PURA200', 'PURA250', 'DETA200', 'SUPA101', 'DETA100', 'SUPA101', 'PURA100', 'PURA100', 'SUPA104', 'DETA100', 'SUPA102', 'DETA200', 'SUPA105', 'PURA250', 'SUPA101', 'SUPA101', 'PURA250', 'PURA250', 'PURA100', 'DETA800', 'SUPA102', 'SUPA103', 'PURA250', 'DETA100', 'SUPA102', 'PURA100', 'PURA200', 'SUPA104', 'DETA200', 'SUPA105', 'SUPA104', 'DETA800', 'SUPA104', 'DETA200', 'DETA800', 'PURA200', 'DETA100', 'SUPA105', 'SUPA103', 'PURA250', 'PURA200', 'DETA100', 'SUPA104', 'SUPA101', 'SUPA103']
 2017-01-08 20:37:42,887 - controller.show_chart_processor - DEBUG - y_data ['117', '73', '205', '14', '170', '129', '82', '116', '67', '125', '71', '22', '153', '141', '65', '157', '197', '10', '30', '134', '100', '142', '135', '9', '69', '189', '141', '166', '170', '199', '73', '117', '160', '45', '37', '135', '12', '104', '167', '108', '105', '176', '131', '188', '93', '113', '112', '201', '41', '18', '28', '137', '95', '109', '137', '196', '48', '4', '125', '211', '20', '135', '193', '184', '126', '176', '102', '203', '177', '51', '203', '106', '14', '116', '7', '82', '178', '41', '85', '77', '122', '42', '64', '208', '13', '147', '163', '126', '188', '151', '89', '168', '84', '16', '80', '50', '41', '19', '37']
 2017-01-08 20:37:42,887 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05BEEF0>
+2017-01-08 20:48:50,519 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-08 20:48:50,520 - controller - DEBUG - response object
+2017-01-08 20:48:50,523 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-08 20:48:50,523 - controller.data_explore - DEBUG - Intent verb get
+2017-01-08 20:48:50,523 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-08 20:48:50,525 - controller.data_explore - DEBUG - Intent data root none
+2017-01-08 20:48:50,525 - controller.show_chart_processor - INFO - inside
+2017-01-08 20:48:50,525 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-08 20:48:50,526 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the sales data.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-08 20:48:50,526 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the sales data.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-08 20:48:50,526 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1553E10>
+2017-01-08 20:48:50,526 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1553E10>
+2017-01-08 20:48:55,779 - controller - DEBUG - x_axis :product_sold
+2017-01-08 20:48:55,779 - controller - DEBUG - y_axis :units_sold
+2017-01-08 20:48:55,779 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'sales data', u'chart_type': u'bar'}, u'frame_name': u'Show_chart'}
+2017-01-08 20:48:55,779 - controller - DEBUG - response object
+2017-01-08 20:48:55,779 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-08 20:48:55,780 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-08 20:48:55,782 - controller.show_chart_processor - DEBUG - x_data ['SUPA101', 'DETA200', 'DETA800', 'SUPA104', 'PURA200', 'PURA100', 'DETA100', 'PURA100', 'SUPA103', 'SUPA103', 'DETA200', 'SUPA104', 'PURA100', 'DETA800', 'PURA500', 'SUPA101', 'SUPA105', 'PURA100', 'SUPA103', 'SUPA102', 'DETA100', 'SUPA105', 'PURA250', 'SUPA102', 'DETA800', 'PURA250', 'SUPA104', 'SUPA105', 'DETA800', 'DETA800', 'SUPA105', 'SUPA101', 'DETA800', 'SUPA101', 'SUPA105', 'DETA800', 'PURA250', 'PURA200', 'SUPA104', 'SUPA103', 'PURA500', 'SUPA105', 'PURA200', 'DETA800', 'DETA200', 'DETA100', 'PURA100', 'PURA200', 'SUPA104', 'SUPA105', 'PURA200', 'SUPA101', 'SUPA104', 'PURA250', 'PURA200', 'PURA250', 'DETA200', 'SUPA101', 'DETA100', 'SUPA101', 'PURA100', 'PURA100', 'SUPA104', 'DETA100', 'SUPA102', 'DETA200', 'SUPA105', 'PURA250', 'SUPA101', 'SUPA101', 'PURA250', 'PURA250', 'PURA100', 'DETA800', 'SUPA102', 'SUPA103', 'PURA250', 'DETA100', 'SUPA102', 'PURA100', 'PURA200', 'SUPA104', 'DETA200', 'SUPA105', 'SUPA104', 'DETA800', 'SUPA104', 'DETA200', 'DETA800', 'PURA200', 'DETA100', 'SUPA105', 'SUPA103', 'PURA250', 'PURA200', 'DETA100', 'SUPA104', 'SUPA101', 'SUPA103']
+2017-01-08 20:48:55,782 - controller.show_chart_processor - DEBUG - y_data ['117', '73', '205', '14', '170', '129', '82', '116', '67', '125', '71', '22', '153', '141', '65', '157', '197', '10', '30', '134', '100', '142', '135', '9', '69', '189', '141', '166', '170', '199', '73', '117', '160', '45', '37', '135', '12', '104', '167', '108', '105', '176', '131', '188', '93', '113', '112', '201', '41', '18', '28', '137', '95', '109', '137', '196', '48', '4', '125', '211', '20', '135', '193', '184', '126', '176', '102', '203', '177', '51', '203', '106', '14', '116', '7', '82', '178', '41', '85', '77', '122', '42', '64', '208', '13', '147', '163', '126', '188', '151', '89', '168', '84', '16', '80', '50', '41', '19', '37']
+2017-01-08 20:48:55,782 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1562668>
+2017-01-08 20:49:09,436 - controller - DEBUG - text :Can you get me a bar chart of phone bills
+2017-01-08 20:49:09,436 - controller - DEBUG - response object
+2017-01-08 20:49:09,436 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-08 20:49:09,436 - controller.data_explore - DEBUG - Intent verb get
+2017-01-08 20:49:09,436 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-08 20:49:09,436 - controller.data_explore - DEBUG - Intent data root none
+2017-01-08 20:49:09,436 - controller.show_chart_processor - INFO - inside
+2017-01-08 20:49:09,436 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'bar'}
+2017-01-08 20:49:09,446 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['Bill amount'], 'x': ['paid', 'Month']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-08 20:49:09,446 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['bill amount'], 'x': ['paid', 'month']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'phone bills', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-08 20:49:09,446 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1562C88>
+2017-01-08 20:49:09,446 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1562C88>
+2017-01-08 20:49:13,085 - controller - DEBUG - x_axis :Month
+2017-01-08 20:49:13,085 - controller - DEBUG - y_axis :Bill amount
+2017-01-08 20:49:13,085 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'phone bills', u'chart_type': u'bar'}, u'frame_name': u'Show_chart'}
+2017-01-08 20:49:13,085 - controller - DEBUG - response object
+2017-01-08 20:49:13,085 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-08 20:49:13,095 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-08 20:49:13,095 - controller.show_chart_processor - DEBUG - x_data ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'May']
+2017-01-08 20:49:13,095 - controller.show_chart_processor - DEBUG - y_data ['456', '423', '445', '350', '400', '550', '600', '457']
+2017-01-08 20:49:13,095 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1562FD0>
+2017-01-08 20:49:57,713 - controller - DEBUG - text :Can you get me a bar chart of phone bills
+2017-01-08 20:49:57,713 - controller - DEBUG - response object
+2017-01-08 20:49:57,716 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-08 20:49:57,717 - controller.data_explore - DEBUG - Intent verb get
+2017-01-08 20:49:57,717 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-08 20:49:57,717 - controller.data_explore - DEBUG - Intent data root none
+2017-01-08 20:49:57,717 - controller.show_chart_processor - INFO - inside
+2017-01-08 20:49:57,717 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'bar'}
+2017-01-08 20:49:57,717 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['Bill amount'], 'x': ['paid', 'Month']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-08 20:49:57,717 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['bill amount'], 'x': ['paid', 'month']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'phone bills', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-08 20:49:57,719 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1606B70>
+2017-01-08 20:49:57,719 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1606B70>
+2017-01-08 20:50:01,651 - controller - DEBUG - x_axis :Month
+2017-01-08 20:50:01,651 - controller - DEBUG - y_axis :Bill amount
+2017-01-08 20:50:01,651 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'phone bills', u'chart_type': u'bar'}, u'frame_name': u'Show_chart'}
+2017-01-08 20:50:01,651 - controller - DEBUG - response object
+2017-01-08 20:50:01,651 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-08 20:50:01,651 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-08 20:50:01,651 - controller.show_chart_processor - DEBUG - x_data ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'May']
+2017-01-08 20:50:01,651 - controller.show_chart_processor - DEBUG - y_data ['456', '423', '445', '350', '400', '550', '600', '457']
+2017-01-08 20:50:01,651 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1606E80>
+2017-01-08 20:50:46,841 - controller - DEBUG - text :Can you get me a bar chart of phone bills
+2017-01-08 20:50:46,842 - controller - DEBUG - response object
+2017-01-08 20:50:46,844 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-08 20:50:46,845 - controller.data_explore - DEBUG - Intent verb get
+2017-01-08 20:50:46,845 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-08 20:50:46,845 - controller.data_explore - DEBUG - Intent data root none
+2017-01-08 20:50:46,845 - controller.show_chart_processor - INFO - inside
+2017-01-08 20:50:46,845 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'bar'}
+2017-01-08 20:50:46,845 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['Bill amount'], 'x': ['paid', 'Month']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-08 20:50:46,845 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['bill amount'], 'x': ['paid', 'month']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'phone bills', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-08 20:50:46,846 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1611240>
+2017-01-08 20:50:46,846 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1611240>
+2017-01-08 20:50:50,753 - controller - DEBUG - x_axis :Month
+2017-01-08 20:50:50,753 - controller - DEBUG - y_axis :Bill amount
+2017-01-08 20:50:50,755 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'phone bills', u'chart_type': u'bar'}, u'frame_name': u'Show_chart'}
+2017-01-08 20:50:50,755 - controller - DEBUG - response object
+2017-01-08 20:50:50,755 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-08 20:50:50,756 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-08 20:50:50,756 - controller.show_chart_processor - DEBUG - x_data ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'May']
+2017-01-08 20:50:50,756 - controller.show_chart_processor - DEBUG - y_data ['456', '423', '445', '350', '400', '550', '600', '457']
+2017-01-08 20:50:50,756 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1611668>
+2017-01-08 22:17:54,471 - controller - DEBUG - text :Get me the bar chart of leave count
+2017-01-08 22:17:54,471 - controller - DEBUG - response object
+2017-01-08 22:17:54,471 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-08 22:17:54,471 - controller.data_explore - DEBUG - Intent verb get
+2017-01-08 22:17:54,471 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-08 22:17:54,471 - controller.data_explore - DEBUG - Intent data root none
+2017-01-08 22:17:54,471 - controller.show_chart_processor - INFO - inside
+2017-01-08 22:17:54,471 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'leave count', 'chart_type': 'bar'}
+2017-01-08 22:17:54,471 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['leave count'], 'x': ['employee']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the leave count.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'leave count', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-08 22:17:54,471 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['leave count'], 'x': ['employee']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the leave count.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'leave count', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-08 22:17:54,471 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A0629208>
+2017-01-08 22:17:54,471 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A0629208>
+2017-01-08 22:17:59,743 - controller - DEBUG - x_axis :employee
+2017-01-08 22:17:59,743 - controller - DEBUG - y_axis :leave count
+2017-01-08 22:17:59,743 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'leave count', u'chart_type': u'bar'}, u'frame_name': u'Show_chart'}
+2017-01-08 22:17:59,743 - controller - DEBUG - response object
+2017-01-08 22:17:59,743 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-08 22:17:59,743 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-08 22:17:59,743 - controller.show_chart_processor - DEBUG - x_data ['Sebin', 'Tony', 'Nidhin', 'Vipul', 'Umesh', 'Aditya', 'Manish']
+2017-01-08 22:17:59,743 - controller.show_chart_processor - DEBUG - y_data ['23', '5', '65', '13', '48', '6', '35']
+2017-01-08 22:17:59,743 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06299E8>
+2017-01-08 22:19:50,674 - controller - DEBUG - text :wow..great !!
+2017-01-08 22:19:50,674 - controller - DEBUG - response object
+2017-01-08 22:19:50,674 - controller.data_explore - INFO - Nothing got triggered !!
+2017-01-08 22:19:50,674 - controller - DEBUG - None
+2017-01-08 22:21:10,053 - controller - DEBUG - text :conver the same to a bar chart
+2017-01-08 22:21:10,055 - controller - DEBUG - response object
+2017-01-08 22:21:10,056 - controller.data_explore - INFO - Nothing got triggered !!
+2017-01-08 22:21:10,058 - controller - DEBUG - None
+2017-01-09 12:32:34,394 - controller - DEBUG - text :Can you get me a bar chart of phone bills
+2017-01-09 12:32:34,394 - controller - DEBUG - response object
+2017-01-09 12:32:34,400 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 12:32:34,400 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 12:32:34,400 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 12:32:34,401 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 12:32:34,401 - controller.show_chart_processor - INFO - inside
+2017-01-09 12:32:34,401 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'bar'}
+2017-01-09 12:32:34,401 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['Bill amount'], 'x': ['paid', 'Month']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:32:34,401 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['bill amount'], 'x': ['paid', 'month']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'phone bills', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:32:34,401 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05BB438>
+2017-01-09 12:32:34,401 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05BB438>
+2017-01-09 12:32:37,884 - controller - DEBUG - x_axis :Month
+2017-01-09 12:32:37,885 - controller - DEBUG - y_axis :Bill amount
+2017-01-09 12:32:37,885 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'phone bills', u'chart_type': u'bar'}, u'frame_name': u'Show_chart'}
+2017-01-09 12:32:37,885 - controller - DEBUG - response object
+2017-01-09 12:32:37,885 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 12:32:37,887 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 12:32:37,888 - controller.show_chart_processor - DEBUG - x_data ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'May']
+2017-01-09 12:32:37,888 - controller.show_chart_processor - DEBUG - y_data ['456', '423', '445', '350', '400', '550', '600', '457']
+2017-01-09 12:32:37,888 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05BBC50>
+2017-01-09 12:48:27,052 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-09 12:48:27,052 - controller - DEBUG - response object
+2017-01-09 12:48:27,052 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 12:48:27,052 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 12:48:27,052 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 12:48:27,052 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 12:48:27,052 - controller.show_chart_processor - INFO - inside
+2017-01-09 12:48:27,052 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-09 12:48:27,052 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the sales data.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:48:27,052 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the sales data.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:48:27,052 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05A9C18>
+2017-01-09 12:48:27,052 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05A9C18>
+2017-01-09 12:48:36,069 - controller - DEBUG - x_axis :customer Country
+2017-01-09 12:48:36,069 - controller - DEBUG - y_axis :units_sold
+2017-01-09 12:48:36,069 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'sales data', u'chart_type': u'bar'}, u'frame_name': u'Show_chart'}
+2017-01-09 12:48:36,069 - controller - DEBUG - response object
+2017-01-09 12:48:36,069 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 12:48:36,069 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 12:48:36,069 - controller.show_chart_processor - DEBUG - x_data ['Congo', 'Panama', 'Tanzania, United Republic of', 'South Africa', 'Gabon', 'Syrian Arab Republic', 'Guadeloupe', 'Macedonia', 'Kyrgyzstan', 'Reunion', 'Turks and Caicos Islands', 'Netherlands Antilles', 'Macedonia', 'Tuvalu', 'Nepal', 'Oman', 'Malawi', 'Moldova', 'Burkina Faso', 'Bouvet Island', 'Liberia', 'Vanuatu', 'Palau', 'Madagascar', 'Yemen', 'Korea', 'Montserrat', 'Mongolia', 'Tunisia', 'Albania', 'Fiji', 'Angola', 'Brazil', 'Solomon Islands', 'Denmark', 'Hungary', 'Virgin Islands, British', 'Niger', 'Palestinian Territory, Occupied', 'Falkland Islands (Malvinas)', 'Panama', 'Colombia', 'Solomon Islands', 'Botswana', 'Philippines', 'Dominican Republic', 'Saint Helena', 'Sierra Leone', 'Canada', 'New Caledonia', 'Mayotte', 'Palestinian Territory, Occupied', 'Panama', 'Burkina Faso', 'Svalbard and Jan Mayen', 'Malta', 'India', 'Gibraltar', 'Croatia', 'Holy See (Vatican City State)', 'Malaysia', 'Pakistan', 'Burkina Faso', 'Indonesia', 'Slovenia', 'Chad', 'French Southern Territories', 'Uruguay', 'United Kingdom', 'American Samoa', 'Malaysia', 'Malta', 'Niue', 'United States', 'Morocco', 'Guinea', 'Western Sahara', 'Moldova', 'El Salvador', 'Gambia', 'Puerto Rico', 'Bangladesh', 'Kazakhstan', 'France', 'Bouvet Island', 'Azerbaijan', 'Iceland', 'Georgia', 'Burundi', 'Cocos (Keeling) Islands', 'Poland', 'Canada', 'Madagascar', 'Palau', 'Norfolk Island', 'Denmark', 'Australia', 'Cameroon', 'Syrian Arab Republic']
+2017-01-09 12:48:36,069 - controller.show_chart_processor - DEBUG - y_data ['117', '73', '205', '14', '170', '129', '82', '116', '67', '125', '71', '22', '153', '141', '65', '157', '197', '10', '30', '134', '100', '142', '135', '9', '69', '189', '141', '166', '170', '199', '73', '117', '160', '45', '37', '135', '12', '104', '167', '108', '105', '176', '131', '188', '93', '113', '112', '201', '41', '18', '28', '137', '95', '109', '137', '196', '48', '4', '125', '211', '20', '135', '193', '184', '126', '176', '102', '203', '177', '51', '203', '106', '14', '116', '7', '82', '178', '41', '85', '77', '122', '42', '64', '208', '13', '147', '163', '126', '188', '151', '89', '168', '84', '16', '80', '50', '41', '19', '37']
+2017-01-09 12:48:36,069 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A060BA20>
+2017-01-09 12:49:08,256 - controller - DEBUG - x_axis :Month
+2017-01-09 12:49:08,256 - controller - DEBUG - y_axis :Bill amount
+2017-01-09 12:49:08,256 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'phone bills', u'chart_type': u'bar'}, u'frame_name': u'Show_chart'}
+2017-01-09 12:49:08,256 - controller - DEBUG - response object
+2017-01-09 12:49:08,256 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 12:49:08,257 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 12:49:08,257 - controller.show_chart_processor - DEBUG - x_data ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'May']
+2017-01-09 12:49:08,259 - controller.show_chart_processor - DEBUG - y_data ['456', '423', '445', '350', '400', '550', '600', '457']
+2017-01-09 12:49:08,259 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A060BC18>
+2017-01-09 12:49:51,561 - controller - DEBUG - text :Can you get me a bar chart of phone bills
+2017-01-09 12:49:51,561 - controller - DEBUG - response object
+2017-01-09 12:49:51,561 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 12:49:51,561 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 12:49:51,561 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 12:49:51,561 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 12:49:51,561 - controller.show_chart_processor - INFO - inside
+2017-01-09 12:49:51,561 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'bar'}
+2017-01-09 12:49:51,561 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['Bill amount'], 'x': ['paid', 'Month']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:49:51,561 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['bill amount'], 'x': ['paid', 'month']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'phone bills', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:49:51,561 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05BB400>
+2017-01-09 12:49:51,561 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05BB400>
+2017-01-09 12:49:56,941 - controller - DEBUG - x_axis :Month
+2017-01-09 12:49:56,941 - controller - DEBUG - y_axis :Bill amount
+2017-01-09 12:49:56,941 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'phone bills', u'chart_type': u'bar'}, u'frame_name': u'Show_chart'}
+2017-01-09 12:49:56,941 - controller - DEBUG - response object
+2017-01-09 12:49:56,941 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 12:49:56,941 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 12:49:56,941 - controller.show_chart_processor - DEBUG - x_data ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'May']
+2017-01-09 12:49:56,941 - controller.show_chart_processor - DEBUG - y_data ['456', '423', '445', '350', '400', '550', '600', '457']
+2017-01-09 12:49:56,941 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05BB978>
+2017-01-09 12:50:12,973 - controller - DEBUG - text :Can you get me a line chart of phone bills
+2017-01-09 12:50:12,973 - controller - DEBUG - response object
+2017-01-09 12:50:12,973 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 12:50:12,973 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 12:50:12,973 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 12:50:12,973 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 12:50:12,973 - controller.show_chart_processor - INFO - inside
+2017-01-09 12:50:12,973 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'line'}
+2017-01-09 12:50:12,973 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['Bill amount'], 'x': ['paid', 'Month']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'line'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:50:12,973 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['bill amount'], 'x': ['paid', 'month']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'phone bills', 'chart_type': 'line'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:50:12,973 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06053C8>
+2017-01-09 12:50:12,973 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06053C8>
+2017-01-09 12:50:17,203 - controller - DEBUG - x_axis :Month
+2017-01-09 12:50:17,203 - controller - DEBUG - y_axis :Bill amount
+2017-01-09 12:50:17,203 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'phone bills', u'chart_type': u'line'}, u'frame_name': u'Show_chart'}
+2017-01-09 12:50:17,203 - controller - DEBUG - response object
+2017-01-09 12:50:17,203 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 12:50:17,203 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 12:50:17,203 - controller.show_chart_processor - DEBUG - x_data ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'May']
+2017-01-09 12:50:17,203 - controller.show_chart_processor - DEBUG - y_data ['456', '423', '445', '350', '400', '550', '600', '457']
+2017-01-09 12:50:17,203 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A0605400>
+2017-01-09 12:51:02,414 - controller - DEBUG - x_axis :Month
+2017-01-09 12:51:02,415 - controller - DEBUG - y_axis :Bill amount
+2017-01-09 12:51:02,415 - controller - DEBUG - context :{u'frame': {u'y_axis': u'Bill amount', u'x_axis': u'Month', u'data': u'phone bills', u'chart_type': u'line'}, u'frame_name': u'Show_chart'}
+2017-01-09 12:51:02,417 - controller - DEBUG - response object
+2017-01-09 12:51:02,417 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 12:51:02,417 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 12:51:02,417 - controller.show_chart_processor - DEBUG - x_data ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'May']
+2017-01-09 12:51:02,417 - controller.show_chart_processor - DEBUG - y_data ['456', '423', '445', '350', '400', '550', '600', '457']
+2017-01-09 12:51:02,417 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A0605780>
+2017-01-09 12:52:43,177 - controller - DEBUG - text :Can you get me a line chart of phone bills
+2017-01-09 12:52:43,177 - controller - DEBUG - response object
+2017-01-09 12:52:43,177 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 12:52:43,177 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 12:52:43,177 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 12:52:43,194 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 12:52:43,194 - controller.show_chart_processor - INFO - inside
+2017-01-09 12:52:43,194 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'line'}
+2017-01-09 12:52:43,194 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['Bill amount'], 'x': ['paid', 'Month']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'line'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:52:43,194 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['bill amount'], 'x': ['paid', 'month']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'phone bills', 'chart_type': 'line'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:52:43,194 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06289E8>
+2017-01-09 12:52:43,194 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A06289E8>
+2017-01-09 12:52:46,028 - controller - DEBUG - x_axis :Month
+2017-01-09 12:52:46,029 - controller - DEBUG - y_axis :Bill amount
+2017-01-09 12:52:46,029 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'phone bills', u'chart_type': u'line'}, u'frame_name': u'Show_chart'}
+2017-01-09 12:52:46,029 - controller - DEBUG - response object
+2017-01-09 12:52:46,029 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 12:52:46,029 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 12:52:46,029 - controller.show_chart_processor - DEBUG - x_data ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'May']
+2017-01-09 12:52:46,029 - controller.show_chart_processor - DEBUG - y_data ['456', '423', '445', '350', '400', '550', '600', '457']
+2017-01-09 12:52:46,029 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A0628B70>
+2017-01-09 12:55:29,888 - controller - DEBUG - text :Can you get me a line chart of phone bills
+2017-01-09 12:55:29,890 - controller - DEBUG - response object
+2017-01-09 12:55:29,892 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 12:55:29,894 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 12:55:29,894 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 12:55:29,894 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 12:55:29,894 - controller.show_chart_processor - INFO - inside
+2017-01-09 12:55:29,894 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'line'}
+2017-01-09 12:55:29,894 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['Bill amount'], 'x': ['paid', 'Month']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'line'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:55:29,894 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['bill amount'], 'x': ['paid', 'month']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'phone bills', 'chart_type': 'line'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:55:29,894 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A15BA8D0>
+2017-01-09 12:55:29,895 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A15BA8D0>
+2017-01-09 12:55:33,927 - controller - DEBUG - x_axis :Month
+2017-01-09 12:55:33,927 - controller - DEBUG - y_axis :Bill amount
+2017-01-09 12:55:33,927 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'phone bills', u'chart_type': u'line'}, u'frame_name': u'Show_chart'}
+2017-01-09 12:55:33,927 - controller - DEBUG - response object
+2017-01-09 12:55:33,927 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 12:55:33,927 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 12:55:33,927 - controller.show_chart_processor - DEBUG - x_data ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'May']
+2017-01-09 12:55:33,927 - controller.show_chart_processor - DEBUG - y_data ['456', '423', '445', '350', '400', '550', '600', '457']
+2017-01-09 12:55:33,927 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A15BADD8>
+2017-01-09 12:57:08,726 - controller - DEBUG - text :Can you get me a line chart of phone bills
+2017-01-09 12:57:08,742 - controller - DEBUG - response object
+2017-01-09 12:57:08,742 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 12:57:08,742 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 12:57:08,742 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 12:57:08,742 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 12:57:08,742 - controller.show_chart_processor - INFO - inside
+2017-01-09 12:57:08,742 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'line'}
+2017-01-09 12:57:08,742 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['Bill amount'], 'x': ['paid', 'Month']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'line'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:57:08,742 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['bill amount'], 'x': ['paid', 'month']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'phone bills', 'chart_type': 'line'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:57:08,742 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A15DFBE0>
+2017-01-09 12:57:08,742 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A15DFBE0>
+2017-01-09 12:57:12,474 - controller - DEBUG - x_axis :Month
+2017-01-09 12:57:12,474 - controller - DEBUG - y_axis :Bill amount
+2017-01-09 12:57:12,474 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'phone bills', u'chart_type': u'line'}, u'frame_name': u'Show_chart'}
+2017-01-09 12:57:12,474 - controller - DEBUG - response object
+2017-01-09 12:57:12,474 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 12:57:12,474 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 12:57:12,474 - controller.show_chart_processor - DEBUG - x_data ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'May']
+2017-01-09 12:57:12,474 - controller.show_chart_processor - DEBUG - y_data ['456', '423', '445', '350', '400', '550', '600', '457']
+2017-01-09 12:57:12,474 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A15E7438>
+2017-01-09 12:57:26,220 - controller - DEBUG - text :Can you get me a line chart of sales data
+2017-01-09 12:57:26,220 - controller - DEBUG - response object
+2017-01-09 12:57:26,220 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 12:57:26,220 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 12:57:26,220 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 12:57:26,220 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 12:57:26,220 - controller.show_chart_processor - INFO - inside
+2017-01-09 12:57:26,220 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'line'}
+2017-01-09 12:57:26,220 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the sales data.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'line'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:57:26,220 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the sales data.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'line'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:57:26,220 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A15E7978>
+2017-01-09 12:57:26,220 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A15E7978>
+2017-01-09 12:57:35,418 - controller - DEBUG - x_axis :product_sold
+2017-01-09 12:57:35,418 - controller - DEBUG - y_axis :units_sold
+2017-01-09 12:57:35,418 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'sales data', u'chart_type': u'line'}, u'frame_name': u'Show_chart'}
+2017-01-09 12:57:35,418 - controller - DEBUG - response object
+2017-01-09 12:57:35,418 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 12:57:35,418 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 12:57:35,418 - controller.show_chart_processor - DEBUG - x_data ['SUPA101', 'DETA200', 'DETA800', 'SUPA104', 'PURA200', 'PURA100', 'DETA100', 'PURA100', 'SUPA103', 'SUPA103', 'DETA200', 'SUPA104', 'PURA100', 'DETA800', 'PURA500', 'SUPA101', 'SUPA105', 'PURA100', 'SUPA103', 'SUPA102', 'DETA100', 'SUPA105', 'PURA250', 'SUPA102', 'DETA800', 'PURA250', 'SUPA104', 'SUPA105', 'DETA800', 'DETA800', 'SUPA105', 'SUPA101', 'DETA800', 'SUPA101', 'SUPA105', 'DETA800', 'PURA250', 'PURA200', 'SUPA104', 'SUPA103', 'PURA500', 'SUPA105', 'PURA200', 'DETA800', 'DETA200', 'DETA100', 'PURA100', 'PURA200', 'SUPA104', 'SUPA105', 'PURA200', 'SUPA101', 'SUPA104', 'PURA250', 'PURA200', 'PURA250', 'DETA200', 'SUPA101', 'DETA100', 'SUPA101', 'PURA100', 'PURA100', 'SUPA104', 'DETA100', 'SUPA102', 'DETA200', 'SUPA105', 'PURA250', 'SUPA101', 'SUPA101', 'PURA250', 'PURA250', 'PURA100', 'DETA800', 'SUPA102', 'SUPA103', 'PURA250', 'DETA100', 'SUPA102', 'PURA100', 'PURA200', 'SUPA104', 'DETA200', 'SUPA105', 'SUPA104', 'DETA800', 'SUPA104', 'DETA200', 'DETA800', 'PURA200', 'DETA100', 'SUPA105', 'SUPA103', 'PURA250', 'PURA200', 'DETA100', 'SUPA104', 'SUPA101', 'SUPA103']
+2017-01-09 12:57:35,418 - controller.show_chart_processor - DEBUG - y_data ['117', '73', '205', '14', '170', '129', '82', '116', '67', '125', '71', '22', '153', '141', '65', '157', '197', '10', '30', '134', '100', '142', '135', '9', '69', '189', '141', '166', '170', '199', '73', '117', '160', '45', '37', '135', '12', '104', '167', '108', '105', '176', '131', '188', '93', '113', '112', '201', '41', '18', '28', '137', '95', '109', '137', '196', '48', '4', '125', '211', '20', '135', '193', '184', '126', '176', '102', '203', '177', '51', '203', '106', '14', '116', '7', '82', '178', '41', '85', '77', '122', '42', '64', '208', '13', '147', '163', '126', '188', '151', '89', '168', '84', '16', '80', '50', '41', '19', '37']
+2017-01-09 12:57:35,418 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A15E7CC0>
+2017-01-09 12:58:24,460 - controller - DEBUG - text :Can you get me a spline chart of sales data
+2017-01-09 12:58:24,460 - controller - DEBUG - response object
+2017-01-09 12:58:24,460 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 12:58:24,460 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 12:58:24,460 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 12:58:24,460 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 12:58:24,460 - controller.show_chart_processor - INFO - inside
+2017-01-09 12:58:24,460 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': None}
+2017-01-09 12:58:24,460 - controller.show_chart_processor - ERROR - chart_type is not detected properly, cant process anymore
+2017-01-09 12:58:54,473 - controller - DEBUG - text :Can you get me a line chart of sales data
+2017-01-09 12:58:54,473 - controller - DEBUG - response object
+2017-01-09 12:58:54,473 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 12:58:54,473 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 12:58:54,473 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 12:58:54,473 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 12:58:54,473 - controller.show_chart_processor - INFO - inside
+2017-01-09 12:58:54,473 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'line'}
+2017-01-09 12:58:54,473 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the sales data.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'line'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:58:54,473 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the sales data.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'line'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 12:58:54,473 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1673908>
+2017-01-09 12:58:54,473 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A1673908>
+2017-01-09 12:59:04,622 - controller - DEBUG - x_axis :customer name
+2017-01-09 12:59:04,622 - controller - DEBUG - y_axis :units_sold
+2017-01-09 12:59:04,622 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'sales data', u'chart_type': u'line'}, u'frame_name': u'Show_chart'}
+2017-01-09 12:59:04,622 - controller - DEBUG - response object
+2017-01-09 12:59:04,622 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 12:59:04,622 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 12:59:04,622 - controller.show_chart_processor - DEBUG - x_data ['Candice Levy', 'Xerxes Smith', 'Levi Douglas', 'Uriel Benton', 'Celeste Pugh', 'Vance Campos', 'Latifah Wall', 'Jane Hernandez', 'Wanda Garza', 'Athena Fitzpatrick', 'Anjolie Hicks', 'Isaac Cooper', 'Asher Weber', 'Ethan Gregory', 'Hayes Rollins', 'MacKenzie Moss', 'Aphrodite Brennan', 'Angela Wise', 'James Spencer', 'Adria Kaufman', 'Amir Alexander', 'Lani Sweet', 'Clark Weaver', 'Leonard Cardenas', 'Renee Padilla', 'Joy Vazquez', 'Ingrid Bush', 'Deacon Craig', 'Rama Goodwin', 'Jelani Odonnell', 'Liberty Mcbride', 'Britanni Bender', 'Samuel Ayala', 'Shad Delacruz', 'India Gilbert', 'Ursula Mcconnell', 'Ryder Conner', 'Germaine Kidd', 'Rhona Clarke', 'Maxwell Parker', 'Isaac Wolf', 'Guinevere Key', 'Deanna Santana', 'Jared Sandoval', 'Ima Cummings', 'Oprah Ellis', 'Dara Cunningham', 'Buckminster Hopkins', 'Kenyon Joyce', 'Forrest Macdonald', 'Thomas Barnes', 'Cruz Pacheco', 'Maxine Gentry', 'Anika Tillman', 'Robert Juarez', 'Kay Buckley', 'Shea Cortez', 'Sylvester Roy', 'Lance Little', 'Kareem Mays', 'Arsenio Knowles', 'Colby Knapp', 'Noble Warner', 'Isadora Mcclure', 'Katelyn Joseph', 'Fletcher Jimenez', 'Keaton Wolfe', 'Melinda Cobb', 'Aurelia Flores', 'Bevis Mcdonald', 'Yael Carter', 'Sawyer Stokes', 'Silas Battle', 'Noble Gilbert', 'Petra Mckenzie', 'Bell Prince', 'George Best', 'Basil Vang', 'Lael Gould', 'Noel Key', 'Paul Duke', 'Josiah Yates', 'Winifred Cantu', 'Devin Abbott', 'Aretha Patton', 'Nell Maddox', 'Tad Mack', 'Amery Frazier', 'Hiroko Acevedo', 'Nyssa Quinn', 'Iliana Porter', 'Zahir Fields', 'Gwendolyn Mccarty', 'Victoria Solis', 'Colette Sargent', 'Cyrus Whitley', 'Joel Rivers', 'Kyra Harding', 'Barrett Mckinney']
+2017-01-09 12:59:04,622 - controller.show_chart_processor - DEBUG - y_data ['117', '73', '205', '14', '170', '129', '82', '116', '67', '125', '71', '22', '153', '141', '65', '157', '197', '10', '30', '134', '100', '142', '135', '9', '69', '189', '141', '166', '170', '199', '73', '117', '160', '45', '37', '135', '12', '104', '167', '108', '105', '176', '131', '188', '93', '113', '112', '201', '41', '18', '28', '137', '95', '109', '137', '196', '48', '4', '125', '211', '20', '135', '193', '184', '126', '176', '102', '203', '177', '51', '203', '106', '14', '116', '7', '82', '178', '41', '85', '77', '122', '42', '64', '208', '13', '147', '163', '126', '188', '151', '89', '168', '84', '16', '80', '50', '41', '19', '37']
+2017-01-09 12:59:04,622 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A15F60F0>
+2017-01-09 13:54:43,388 - controller - DEBUG - text :Can you get me a line chart of phone bills
+2017-01-09 13:54:43,388 - controller - DEBUG - response object
+2017-01-09 13:54:43,388 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 13:54:43,388 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 13:54:43,388 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 13:54:43,388 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 13:54:43,388 - controller.show_chart_processor - INFO - inside
+2017-01-09 13:54:43,388 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'line'}
+2017-01-09 13:54:43,388 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['Bill amount'], 'x': ['paid', 'Month']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'line'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 13:54:43,388 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['bill amount'], 'x': ['paid', 'month']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'phone bills', 'chart_type': 'line'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 13:54:43,388 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A15EE9E8>
+2017-01-09 13:54:43,388 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A15EE9E8>
+2017-01-09 13:54:46,767 - controller - DEBUG - x_axis :Month
+2017-01-09 13:54:46,767 - controller - DEBUG - y_axis :Bill amount
+2017-01-09 13:54:46,767 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'phone bills', u'chart_type': u'line'}, u'frame_name': u'Show_chart'}
+2017-01-09 13:54:46,767 - controller - DEBUG - response object
+2017-01-09 13:54:46,767 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 13:54:46,767 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 13:54:46,767 - controller.show_chart_processor - DEBUG - x_data ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'May']
+2017-01-09 13:54:46,767 - controller.show_chart_processor - DEBUG - y_data ['456', '423', '445', '350', '400', '550', '600', '457']
+2017-01-09 13:54:46,767 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A15EE940>
+2017-01-09 13:55:40,957 - controller - DEBUG - text :Can you get me a spline chart of phone bills
+2017-01-09 13:55:40,957 - controller - DEBUG - response object
+2017-01-09 13:55:40,959 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 13:55:40,960 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 13:55:40,960 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 13:55:40,960 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 13:55:40,960 - controller.show_chart_processor - INFO - inside
+2017-01-09 13:55:40,960 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': None}
+2017-01-09 13:55:40,960 - controller.show_chart_processor - ERROR - chart_type is not detected properly, cant process anymore
+2017-01-09 13:55:54,342 - controller - DEBUG - text :Can you get me a line chart of phone bills
+2017-01-09 13:55:54,342 - controller - DEBUG - response object
+2017-01-09 13:55:54,342 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 13:55:54,342 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 13:55:54,342 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 13:55:54,342 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 13:55:54,342 - controller.show_chart_processor - INFO - inside
+2017-01-09 13:55:54,342 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'line'}
+2017-01-09 13:55:54,342 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['Bill amount'], 'x': ['paid', 'Month']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'line'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 13:55:54,342 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['bill amount'], 'x': ['paid', 'month']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'phone bills', 'chart_type': 'line'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 13:55:54,342 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A064E588>
+2017-01-09 13:55:54,342 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A064E588>
+2017-01-09 13:56:02,631 - controller - DEBUG - text :Can you get me a line chart of sales data
+2017-01-09 13:56:02,631 - controller - DEBUG - response object
+2017-01-09 13:56:02,631 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 13:56:02,631 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 13:56:02,631 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 13:56:02,631 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 13:56:02,631 - controller.show_chart_processor - INFO - inside
+2017-01-09 13:56:02,631 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'line'}
+2017-01-09 13:56:02,631 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the sales data.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'line'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 13:56:02,632 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the sales data.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'line'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 13:56:02,632 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A0642550>
+2017-01-09 13:56:02,632 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A0642550>
+2017-01-09 13:56:07,950 - controller - DEBUG - x_axis :customer name
+2017-01-09 13:56:07,950 - controller - DEBUG - y_axis :units_sold
+2017-01-09 13:56:07,951 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'sales data', u'chart_type': u'line'}, u'frame_name': u'Show_chart'}
+2017-01-09 13:56:07,951 - controller - DEBUG - response object
+2017-01-09 13:56:07,951 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 13:56:07,953 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 13:56:07,953 - controller.show_chart_processor - DEBUG - x_data ['Candice Levy', 'Xerxes Smith', 'Levi Douglas', 'Uriel Benton', 'Celeste Pugh', 'Vance Campos', 'Latifah Wall', 'Jane Hernandez', 'Wanda Garza', 'Athena Fitzpatrick', 'Anjolie Hicks', 'Isaac Cooper', 'Asher Weber', 'Ethan Gregory', 'Hayes Rollins', 'MacKenzie Moss', 'Aphrodite Brennan', 'Angela Wise', 'James Spencer', 'Adria Kaufman', 'Amir Alexander', 'Lani Sweet', 'Clark Weaver', 'Leonard Cardenas', 'Renee Padilla', 'Joy Vazquez', 'Ingrid Bush', 'Deacon Craig', 'Rama Goodwin', 'Jelani Odonnell', 'Liberty Mcbride', 'Britanni Bender', 'Samuel Ayala', 'Shad Delacruz', 'India Gilbert', 'Ursula Mcconnell', 'Ryder Conner', 'Germaine Kidd', 'Rhona Clarke', 'Maxwell Parker', 'Isaac Wolf', 'Guinevere Key', 'Deanna Santana', 'Jared Sandoval', 'Ima Cummings', 'Oprah Ellis', 'Dara Cunningham', 'Buckminster Hopkins', 'Kenyon Joyce', 'Forrest Macdonald', 'Thomas Barnes', 'Cruz Pacheco', 'Maxine Gentry', 'Anika Tillman', 'Robert Juarez', 'Kay Buckley', 'Shea Cortez', 'Sylvester Roy', 'Lance Little', 'Kareem Mays', 'Arsenio Knowles', 'Colby Knapp', 'Noble Warner', 'Isadora Mcclure', 'Katelyn Joseph', 'Fletcher Jimenez', 'Keaton Wolfe', 'Melinda Cobb', 'Aurelia Flores', 'Bevis Mcdonald', 'Yael Carter', 'Sawyer Stokes', 'Silas Battle', 'Noble Gilbert', 'Petra Mckenzie', 'Bell Prince', 'George Best', 'Basil Vang', 'Lael Gould', 'Noel Key', 'Paul Duke', 'Josiah Yates', 'Winifred Cantu', 'Devin Abbott', 'Aretha Patton', 'Nell Maddox', 'Tad Mack', 'Amery Frazier', 'Hiroko Acevedo', 'Nyssa Quinn', 'Iliana Porter', 'Zahir Fields', 'Gwendolyn Mccarty', 'Victoria Solis', 'Colette Sargent', 'Cyrus Whitley', 'Joel Rivers', 'Kyra Harding', 'Barrett Mckinney']
+2017-01-09 13:56:07,953 - controller.show_chart_processor - DEBUG - y_data ['117', '73', '205', '14', '170', '129', '82', '116', '67', '125', '71', '22', '153', '141', '65', '157', '197', '10', '30', '134', '100', '142', '135', '9', '69', '189', '141', '166', '170', '199', '73', '117', '160', '45', '37', '135', '12', '104', '167', '108', '105', '176', '131', '188', '93', '113', '112', '201', '41', '18', '28', '137', '95', '109', '137', '196', '48', '4', '125', '211', '20', '135', '193', '184', '126', '176', '102', '203', '177', '51', '203', '106', '14', '116', '7', '82', '178', '41', '85', '77', '122', '42', '64', '208', '13', '147', '163', '126', '188', '151', '89', '168', '84', '16', '80', '50', '41', '19', '37']
+2017-01-09 13:56:07,953 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A04CFBA8>
+2017-01-09 13:56:21,184 - controller - DEBUG - text :Can you get me a bar chart of sales data
+2017-01-09 13:56:21,186 - controller - DEBUG - response object
+2017-01-09 13:56:21,187 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 13:56:21,187 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 13:56:21,187 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 13:56:21,188 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 13:56:21,188 - controller.show_chart_processor - INFO - inside
+2017-01-09 13:56:21,188 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}
+2017-01-09 13:56:21,188 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer Country']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the sales data.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 13:56:21,190 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['customer id', 'units_sold'], 'x': ['sales channel', 'product_sold', 'date sold', 'customer name', 'customer country']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the sales data.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'sales data', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 13:56:21,190 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A04CFC18>
+2017-01-09 13:56:21,190 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A04CFC18>
+2017-01-09 13:56:26,734 - controller - DEBUG - x_axis :customer name
+2017-01-09 13:56:26,734 - controller - DEBUG - y_axis :units_sold
+2017-01-09 13:56:26,734 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'sales data', u'chart_type': u'bar'}, u'frame_name': u'Show_chart'}
+2017-01-09 13:56:26,734 - controller - DEBUG - response object
+2017-01-09 13:56:26,734 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 13:56:26,736 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 13:56:26,736 - controller.show_chart_processor - DEBUG - x_data ['Candice Levy', 'Xerxes Smith', 'Levi Douglas', 'Uriel Benton', 'Celeste Pugh', 'Vance Campos', 'Latifah Wall', 'Jane Hernandez', 'Wanda Garza', 'Athena Fitzpatrick', 'Anjolie Hicks', 'Isaac Cooper', 'Asher Weber', 'Ethan Gregory', 'Hayes Rollins', 'MacKenzie Moss', 'Aphrodite Brennan', 'Angela Wise', 'James Spencer', 'Adria Kaufman', 'Amir Alexander', 'Lani Sweet', 'Clark Weaver', 'Leonard Cardenas', 'Renee Padilla', 'Joy Vazquez', 'Ingrid Bush', 'Deacon Craig', 'Rama Goodwin', 'Jelani Odonnell', 'Liberty Mcbride', 'Britanni Bender', 'Samuel Ayala', 'Shad Delacruz', 'India Gilbert', 'Ursula Mcconnell', 'Ryder Conner', 'Germaine Kidd', 'Rhona Clarke', 'Maxwell Parker', 'Isaac Wolf', 'Guinevere Key', 'Deanna Santana', 'Jared Sandoval', 'Ima Cummings', 'Oprah Ellis', 'Dara Cunningham', 'Buckminster Hopkins', 'Kenyon Joyce', 'Forrest Macdonald', 'Thomas Barnes', 'Cruz Pacheco', 'Maxine Gentry', 'Anika Tillman', 'Robert Juarez', 'Kay Buckley', 'Shea Cortez', 'Sylvester Roy', 'Lance Little', 'Kareem Mays', 'Arsenio Knowles', 'Colby Knapp', 'Noble Warner', 'Isadora Mcclure', 'Katelyn Joseph', 'Fletcher Jimenez', 'Keaton Wolfe', 'Melinda Cobb', 'Aurelia Flores', 'Bevis Mcdonald', 'Yael Carter', 'Sawyer Stokes', 'Silas Battle', 'Noble Gilbert', 'Petra Mckenzie', 'Bell Prince', 'George Best', 'Basil Vang', 'Lael Gould', 'Noel Key', 'Paul Duke', 'Josiah Yates', 'Winifred Cantu', 'Devin Abbott', 'Aretha Patton', 'Nell Maddox', 'Tad Mack', 'Amery Frazier', 'Hiroko Acevedo', 'Nyssa Quinn', 'Iliana Porter', 'Zahir Fields', 'Gwendolyn Mccarty', 'Victoria Solis', 'Colette Sargent', 'Cyrus Whitley', 'Joel Rivers', 'Kyra Harding', 'Barrett Mckinney']
+2017-01-09 13:56:26,736 - controller.show_chart_processor - DEBUG - y_data ['117', '73', '205', '14', '170', '129', '82', '116', '67', '125', '71', '22', '153', '141', '65', '157', '197', '10', '30', '134', '100', '142', '135', '9', '69', '189', '141', '166', '170', '199', '73', '117', '160', '45', '37', '135', '12', '104', '167', '108', '105', '176', '131', '188', '93', '113', '112', '201', '41', '18', '28', '137', '95', '109', '137', '196', '48', '4', '125', '211', '20', '135', '193', '184', '126', '176', '102', '203', '177', '51', '203', '106', '14', '116', '7', '82', '178', '41', '85', '77', '122', '42', '64', '208', '13', '147', '163', '126', '188', '151', '89', '168', '84', '16', '80', '50', '41', '19', '37']
+2017-01-09 13:56:26,736 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A0574F60>
+2017-01-09 22:55:36,349 - controller - DEBUG - text :Can you get me a bar chart of phone bills
+2017-01-09 22:55:36,349 - controller - DEBUG - response object
+2017-01-09 22:55:36,349 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 22:55:36,349 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 22:55:36,349 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 22:55:36,349 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 22:55:36,349 - controller.show_chart_processor - INFO - inside
+2017-01-09 22:55:36,349 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'bar'}
+2017-01-09 22:55:36,349 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['Bill amount'], 'x': ['paid', 'Month']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'bar'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 22:55:36,365 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['bill amount'], 'x': ['paid', 'month']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'phone bills', 'chart_type': 'bar'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 22:55:36,365 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05A7E48>
+2017-01-09 22:55:36,365 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05A7E48>
+2017-01-09 22:55:39,953 - controller - DEBUG - x_axis :Month
+2017-01-09 22:55:39,953 - controller - DEBUG - y_axis :Bill amount
+2017-01-09 22:55:39,953 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'phone bills', u'chart_type': u'bar'}, u'frame_name': u'Show_chart'}
+2017-01-09 22:55:39,953 - controller - DEBUG - response object
+2017-01-09 22:55:39,953 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 22:55:39,953 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 22:55:39,953 - controller.show_chart_processor - DEBUG - x_data ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'May']
+2017-01-09 22:55:39,953 - controller.show_chart_processor - DEBUG - y_data ['456', '423', '445', '350', '400', '550', '600', '457']
+2017-01-09 22:55:39,953 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05B86A0>
+2017-01-09 22:55:52,020 - controller - DEBUG - text :Can you get me a line chart of phone bills
+2017-01-09 22:55:52,020 - controller - DEBUG - response object
+2017-01-09 22:55:52,020 - controller.data_explore - DEBUG - Intent identified !!
+2017-01-09 22:55:52,020 - controller.data_explore - DEBUG - Intent verb get
+2017-01-09 22:55:52,020 - controller.data_explore - DEBUG - Intent obj root chart
+2017-01-09 22:55:52,020 - controller.data_explore - DEBUG - Intent data root none
+2017-01-09 22:55:52,020 - controller.show_chart_processor - INFO - inside
+2017-01-09 22:55:52,020 - controller.show_chart_processor - INFO - Entering response_generator_showchart{'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'line'}
+2017-01-09 22:55:52,020 - controller.show_chart_processor - INFO - Leaving response_generator_showchart {'isCompleted': False, 'data': {'template_data': {'y': ['Bill amount'], 'x': ['paid', 'Month']}, 'text': 'Ok. Got it. But i need more information on the data used with x axis and y axis. Please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': None, 'x_axis': None, 'data': 'phone bills', 'chart_type': 'line'}, 'frame_name': 'Show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 22:55:52,020 - controller.data_explore - DEBUG - leaving  text_parser t{'iscompleted': false, 'data': {'template_data': {'y': ['bill amount'], 'x': ['paid', 'month']}, 'text': 'ok. got it. but i need more information on the data used with x axis and y axis. please select appropriate fields from the phone bills.'}, 'context': {'frame': {'y_axis': none, 'x_axis': none, 'data': 'phone bills', 'chart_type': 'line'}, 'frame_name': 'show_chart'}, 'template': 'graph-axis-selector.html'}
+2017-01-09 22:55:52,020 - controller.data_explore - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05B8BE0>
+2017-01-09 22:55:52,020 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05B8BE0>
+2017-01-09 22:55:56,698 - controller - DEBUG - x_axis :Month
+2017-01-09 22:55:56,698 - controller - DEBUG - y_axis :Bill amount
+2017-01-09 22:55:56,698 - controller - DEBUG - context :{u'frame': {u'y_axis': None, u'x_axis': None, u'data': u'phone bills', u'chart_type': u'line'}, u'frame_name': u'Show_chart'}
+2017-01-09 22:55:56,698 - controller - DEBUG - response object
+2017-01-09 22:55:56,698 - controller.show_chart_processor - DEBUG - Inside the processChartAxis
+2017-01-09 22:55:56,698 - controller.show_chart_processor - DEBUG - Reading the file successfully 
+2017-01-09 22:55:56,698 - controller.show_chart_processor - DEBUG - x_data ['January', 'February', 'March', 'April', 'June', 'July', 'August', 'May']
+2017-01-09 22:55:56,698 - controller.show_chart_processor - DEBUG - y_data ['456', '423', '445', '350', '400', '550', '600', '457']
+2017-01-09 22:55:56,698 - controller - DEBUG - <angular_flask.models.Response_frame object at 0x00000000A05B8F28>
