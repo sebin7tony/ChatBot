@@ -21,7 +21,7 @@ angular.module('chatWebApp')
                 function (data){
 
                     if(data !== undefined){
-                        //console.log("getReplyFromJarvis :"+JSON.stringify(data.data,null,4));
+                        console.log("getReplyFromJarvis :"+JSON.stringify(data.data,null,4));
                         $scope.responseOBJ = data.data;
 
                         $scope.currentMessage = {

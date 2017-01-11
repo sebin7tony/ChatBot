@@ -1,3 +1,4 @@
+
 from angular_flask import app
 import frames,models
 
@@ -7,7 +8,7 @@ import requests
 import base64
 
 logger = logging.getLogger("controller.jira_processor")
-JIRA_ADDR = 'JIRA URL'
+JIRA_ADDR = ''
 
 jira_session = requests.session()
 
@@ -15,9 +16,10 @@ jira_session = requests.session()
 # Access Global varibale jira_session
 def login_jira():
 	try:
-    	jira_session.post(JIRA_ADDR, auth=('username', 'password'), verify=False)
+		jira_session.post(JIRA_ADDR, auth=('user', 'pass'), verify=False)
 	except:
-    	logger.error('Unable to connect or authenticate with JIRA server.')
+		logger.error('Unable to connect or authenticate with JIRA server.')
+
 
 # This function gets the jira data by
 # contacting the jira server
@@ -26,13 +28,24 @@ def login_jira():
 def get_jira_data(issue_status):
 	# Prepare URL for jira rest
 	url = JIRA_ADDR + "/rest/api/latest/search?"
-	url = url + "jql=project%20IN%20(PROJECT)%20AND%20status%20in%20("+issue_status+")&maxResults=6"
+	url = url + "jql=project%20IN%20(KZN)%20AND%20status%20in%20("+issue_status+")&maxResults=6"
 	logger.debug('url for JIRA : '+url)
+	print('url for JIRA : '+url)
 
 	login_jira()
 	results = jira_session.get(url)
 	jira_data = results.json()
-	return jira_data
+
+	bugs = []
+	for data in jira_data['issues']:
+		bug = {}
+		bug['key'] = data['key']
+		bug['link'] = JIRA_ADDR+"/browse/"+data['key']
+		bug['summary'] = data['fields']['summary']
+		bug['assignee'] = data['fields']['assignee']['displayName']
+		bugs.append(bug)
+
+	return bugs
 
 
 # This function will create the response needed for the Get_jira intent
@@ -44,9 +57,18 @@ def response_generator_jira(getJira_frame):
 		logger.error("Passed parameter does not qualify for response generation")
 		return
 
-	showChart_response = models.Response_frame()	
+	jira_response = models.Response_frame()	
+	jira_response.template = "jira-tiles.html"
+	tmp = {}
+	tmp["text"] = "These are the top "+getJira_frame.issue_status+" jira issues that i found. Click on it for details"
+	tmp["template_data"] = get_jira_data(getJira_frame.issue_status)
+	jira_response.data = tmp
+	jira_response.isCompleted = True
+	jira_response.context = getJira_frame.__dict__
 
+	return jira_response
 
+ 
 # This function will fill the Get_jira frame
 # @params : Get_jira, Spacy Token
 # @returns : Response_frame
@@ -66,3 +88,8 @@ def fillFrame_jira(getJira_frame,intent_obj_root):
 	else:
 		logger.error("getJira_frame is not filled fully. Something went wrong")
 		return
+
+
+if __name__ == '__main__':
+	k = get_jira_data('Submitted')
+	print k

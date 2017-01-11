@@ -30,9 +30,9 @@ class Show_chart(object):
 class Get_jira(object):
 
 	def __init__(self):
-		self.project = "PROJECT"
+		self.project = "KZN"
 		self.issue_status = None
-		self.user = "USER"
+		self.user = "Sebin Tony"
 
 	def display_frame(self):
 		print "printing Get_jira frame"

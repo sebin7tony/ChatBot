@@ -15,7 +15,8 @@ logger = logging.getLogger("controller.data_explore")
 training_verb_list = ['get.v.4','display.v.1','fetch.v.1','draw.v.3','show.v.5','see.v.1','plot.v.2','represent.v.9']
 show_chart_verb_list = [verb for verb_input in training_verb_list for verb in wn.synset(verb_input).lemma_names()]
 show_chart_noun_list = ['chart','graph']
-jira_noun_list = ['bugs','issues']
+jira_noun_list = ['bugs','issues','bug','issue']
+
 dep_list = ['dobj','prep','xcomp']
 verbs_special_cases = ['represent','depict','exhibit']
 
@@ -103,12 +104,12 @@ def text_parser(text):
         logger.debug("Intent verb "+str(intent_verb).lower())
         logger.debug("Intent obj root "+str(intent_obj_root).lower())
 
-        getJira_frame = frames.Get_jira(intent_obj_root)
-        show_jira_response = jira_proc.fillFrame_jira(getJira_frame,intent_obj_root)
+        getJira_frame = frames.Get_jira()
+        jira_response = jira_proc.fillFrame_jira(getJira_frame,intent_obj_root)
         # Response here always will be asking about the axis info
-        logger.debug("leaving  text_parser t"+str(show_chart_response.__dict__).lower())
-        logger.debug(show_chart_response)
-        return show_chart_response
+        logger.debug("leaving  text_parser t"+str(jira_response.__dict__).lower())
+        logger.debug(jira_response)
+        return jira_response
     else:
     	# Nothing got triggered
         logger.info("Nothing got triggered !!")

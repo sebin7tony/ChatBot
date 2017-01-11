@@ -1,0 +1,15 @@
+<div class="row" ng-show="message.dataitem.text">
+	<div class="col-12-lg col-12-md talk-bubble tri-right" style="background-color:lightblue; padding:5px; padding-left:8px; margin: 15px;" ng-class="appliedClass(message.sender)">
+		<div class="talktext" style="padding: 6px;">
+			<p style="margin: 10px 0 10px;">{{message.dataitem.text}}</p>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-6" style="" ng-repeat="items in message.dataitem.template_data track by $index">
+		<a ng-href={{items.link}}><h2>{{items.key}}</h2></a>
+		<h4>{{items.assignee}}</h4>
+		<p>{{items.summary}}</p>
+	</div> 
+</div>
